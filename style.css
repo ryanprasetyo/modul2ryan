@@ -1,0 +1,111 @@
+
+
+
+h1 {
+	margin-bottom:20px;
+	text-align:center;
+}
+
+h3 {
+  border: 3px dotted black;
+  font-family: arial;
+  font-size: 15px;  
+  text-align: center;  
+  width: 100px;
+  position: relative;
+  margin-left:12px;
+  right: 25px; 
+  bottom: 13px;
+  padding:2px;
+  float: right; 
+  font-weight:bold;
+}
+p {
+	background-color: #85858f; 
+	border: 2px solid #111494; 
+	box-sizing: border-box; 
+	margin: 25px; 	
+	padding: 10px;
+}
+
+.row {
+	width: 100%;
+}
+
+.nasi{
+	background-color: #e95851 ; 
+}
+.gudeg {
+	background-color: #9e514d; 
+}
+.rendang {
+	background-color: #86ec5d; 
+}
+
+
+
+/***desktop***/
+@media (min-width: 992px) {
+	.col-lg-3, .col-lg-6, .col-lg-12{
+		float: left;   
+		
+		}
+
+
+  
+  .col-lg-3 {
+    width: 8%;
+  }
+  
+  .col-lg-6 {
+    width: 30%;
+  
+ 	}
+  .col-lg-12 {
+    width: 90%;
+  }
+	}
+
+/**medium**/
+@media (min-width: 768px) and (max-width: 991px) {
+	   .col-med-3, .col-med-6, .col-med-12{
+		float: left;  
+		
+		}
+
+
+  .col-med-3 {
+    width: 15%;
+  }
+  
+  .col-med-6 {
+    width: 30%;
+  }
+
+  .col-med-12 {
+    width: 90%;
+  }
+	}
+	
+	
+/*small*/
+@media (min-width: 767px) { 
+        .col-sm-4, .col-sm-6, .col-sm-12{
+		float: left; 
+		
+		}
+
+
+  .col-sml-3 {
+    width: 30%;
+  }
+
+  .col-sml-6 {
+    width: 60%;
+  }
+  
+  .col-sml-12 {
+    width: 90%;
+  }
+
+}
