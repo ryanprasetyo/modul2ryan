@@ -1,0 +1,68 @@
+
+body {
+	color: green;
+	padding-top: 70px;
+	
+}
+
+#header-nav {
+}
+
+.navbar {
+	border-radius: 0;
+	border: 0;
+	border: 3px dotted gold;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, a {
+  text-decoration: none;
+  color: black;
+  font-family:arial;
+  font-weight:bold;
+  font-size:24;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+ }
+
+#collapsable-nav {
+	
+}
+ .navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    background-color: #62a6e1;
+}
+
+ul {
+	margin: 0;
+}
+
+li {
+	border: 1px solid ;
+}
+
+h1 {
+	padding-top: 5px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.menu {
+	background-color: #62a6e1;
+	padding-top: 10px;
+}
+
+.menu p {
+	padding: 0 15px;
+}
+
